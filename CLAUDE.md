@@ -1,0 +1,7 @@
+# Instructions for Claude sessions
+
+@AGENTS.md
+
+Claude-specific: use the Agent tool for helpers and pick their model per PLAYBOOK.md; the session's cloud container is the analysis host and the PC's Linux shell handles files, fingerprints and git (PLAYBOOK.md, "Where things run").
+
+The name tiers (owner decision 2026-11-02, recorded by Fable in BW2Project/08_notes/DECISIONS.md "2026-11-06 (Fable, T10B2 live, the name tiers, T10B3, T14R3)", ruling 2): a function name is verified only when the method or band that produced it read under 5 percent wrong on a verifier's own holdout (95 of 100 or better); the combined files are that tier and are the only names a session may use as an anchor, cite as a fact, or build on. Names from a method or band that read 85 to under 95 are "suggested" and names from one that read under 85 are "noise"; both live in separate files beside the combined file, never merged, every row carrying its method, band and rate, published on the mirror in their own folders so others can try them. A band is defined before any row is read, nothing moves tier by being read individually, a row rises only when a new method or band produces it and that band measures at the higher tier, and the suggested and noise tiers never anchor any method. No session treats a suggested or noise row as a name, cites it as a fact, or lifts it into the combined file, FINDINGS.md or the knowledge base.
